@@ -1,0 +1,20 @@
+[Unit]
+Description=Linda Daemon (Masternode)
+After=network.target
+Documentation=https://github.com/jeteokeeffe/linda
+Documentation=https://steemit.com/cryptocurrency/@bradspodium.xyz/linda-linda-coin-masternode-guide
+
+
+[Service]
+Type=forking
+User=jeterokeeffe
+Group=jeterokeeffe
+WorkingDirectory=/home/jeterokeeffe
+ExecStart=/usr/local/bin/Lindad 
+ExecStop=/usr/local/bin/Lindad stop
+Restart=on-failure
+#Restart=on-failure
+#RestartSec=15s
+
+[Install]
+WantedBy=multi-user.target
