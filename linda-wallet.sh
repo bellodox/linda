@@ -19,7 +19,7 @@ function depend_qt {
 
 function compile_db {
 	cd ~
-	mkdir bitcoin/db4/
+	mkdir -p bitcoin/db4/
 
 	wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 	tar -xzvf db-4.8.30.NC.tar.gz
@@ -49,5 +49,5 @@ depend_linda
 depend_wallet
 depend_qt
 compile_db
-compile_sec
+compile_secp
 build_lindaqt
