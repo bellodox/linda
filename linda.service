@@ -3,6 +3,7 @@ Description=Linda Daemon (Masternode)
 After=network.target
 Documentation=https://github.com/jeteokeeffe/linda
 Documentation=https://steemit.com/cryptocurrency/@bradspodium.xyz/linda-linda-coin-masternode-guide
+Documentation=https://github.com/Lindacoin/Linda/wiki/Basic-Masternode-guide
 
 
 [Service]
