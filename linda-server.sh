@@ -45,8 +45,8 @@ function enable_swap {
 }
 
 function compile_linda {
-	cd ~/Linda/src/
-	sudo make -f makefile.unix
+	cd ~/Linda
+    qmake -qt=qt5 USE_UPNP=- && make
     strip Lindad
 }
 
