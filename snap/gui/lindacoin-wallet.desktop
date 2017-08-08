@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=Lindacoin Wallet
+Comment=Cryptocurrency Wallet for Linda Coin
+Exec=lindacoin-wallet
+Icon=${SNAP}/usr/share/lindacoin-wallet1.png
+Terminal=false
+Type=Application
+Categories=Utilities;Application;
