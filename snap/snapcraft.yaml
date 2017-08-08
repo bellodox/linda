@@ -4,7 +4,7 @@ name: lindacoin-wallet
 version: '0.1'
 summary: Cryptocurrency Wallet for LindaCoin
 description: |
-    Linda Cryptocoin is a hybrid coin with more than 70% pure PoS Block reward phase and 99% APR. This coin comes with a masternode which ensures lightening fast secured transaction, multi-wallets, encrypted messaging and stealth address for complete anonymity.
+    Linda Cryptocoin is a hybrid coin with more than 70% pure PoS Block reward phase and 99% APR. This coin comes with a masternode which ensures lightening fast secured transaction, multi-wallets, encrypted messaging and stealth address for complete anonymity. Linda source can be found on GitHub (https://github.com/Lindacoin/Linda). Snap build can be found on GitHub (https://github.com/jeteokeeffe/linda).
 
 grade: stable
 confinement: strict 
